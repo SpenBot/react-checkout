@@ -1,0 +1,36 @@
+.Main {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+header {
+  background-color: rgb(196, 40, 28);
+  color: white;
+  height: 80px;
+  margin: 0 0 40px;
+  padding-top: 5px;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+
+}
+
+.headerCart {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-right: 50px;
+}
+
+header img {
+  margin-top: -5px;
+  height: 40px;
+  width: 40px;
+}
+
+h1 {
+  margin-left: 50px;
+}

@@ -1,0 +1,53 @@
+.CartItem {
+  width: 600px;
+  background-color: white;
+  border-top: 1px solid rgb(180, 180, 180);
+  height: 180px;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+
+/* .CartItem h3 {
+  margin: 10px auto 0;
+} */
+
+.CartItem img {
+  height: 200px;
+  width: 230px;
+
+}
+
+
+/* .CartItem h5 {
+  margin-top: -15px;
+} */
+
+.addSubQuantDiv {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+
+  width: 80px;
+}
+
+.addSubQuantButtons {
+  display: flex;
+  flex-direction: column;
+}
+
+.addSubQuantButtons button{
+  height: 25px;
+  width: 30px;
+}
+
+.itemTotalDiv {
+  text-align: center;
+}
+
+.itemTotalDiv h5 {
+  margin: 0 0 20px 0;
+}
